@@ -22,6 +22,23 @@ The AWS-Simple-Log-Service allows clients to post and retrieve log entries via a
 - Serverless Architecture: Built using AWS Lambda for scalability and cost-efficiency.
 
 ## 📥 Installation 
--  1.	Clone this repository
--  2. Set up your AWS Lambda function: [Visit AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/)
--  3.
+- Clone this repository
+- Set up your AWS Lambda function: [Visit AWS Lambda Documentation](https://docs.aws.amazon.com/lambda/)
+- Configure IAM permissions and roles.
+- Deploy your function. 
+- Create API Gateway with POST and GET methods, and integrate with Lambda function.
+- Configure CloudWatch for logging and monitoring.
+- Test API endpoint to ensure log entries are saved and retrieved correctly.
+
+## 📊 Usage
+POST/ Log Entry: 
+
+![Entry](https://github.com/user-attachments/assets/c63dfb70-89fd-4156-99c9-9394f6f23fa1)
+
+API Endpoint: [https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/SaveLogEntry](https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/SaveLogEntry)
+
+GET/Retrieve the Last 100 Logs:
+API Endpoint : [https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/RetreiveLogEntry](https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/RetreiveLogEntry)
+
+
+
