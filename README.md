@@ -31,13 +31,14 @@ The AWS-Simple-Log-Service allows clients to post and retrieve log entries via a
 - Test API endpoint to ensure log entries are saved and retrieved correctly.
 
 ## 📊 Usage
-POST/ Log Entry: 
+### POST/ Log Entry: 
 
 ![Entry](https://github.com/user-attachments/assets/c63dfb70-89fd-4156-99c9-9394f6f23fa1)
 
 API Endpoint: [https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/SaveLogEntry](https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/SaveLogEntry)
 
-GET/Retrieve the Last 100 Logs:
+### GET/Retrieve the Last 100 Logs:
+
 API Endpoint : [https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/RetreiveLogEntry](https://5kdf6822i4.execute-api.eu-north-1.amazonaws.com/dev/RetreiveLogEntry)
 
 
