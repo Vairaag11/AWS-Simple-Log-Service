@@ -1,4 +1,4 @@
-<h1 align="center">AWS-Simple-Log-Service</h1>
+<h1 align="center">💻AWS-Simple-Log-Service💻</h1>
 
 ## 🌟 Basic Overview
 A serverless logging service built using AWS Lambda, designed to capture and log messages with varying levels of severity.
